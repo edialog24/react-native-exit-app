@@ -5,4 +5,4 @@ export interface Spec extends TurboModule {
     exitApp: () => void;
 }
 
-export default TurboModuleRegistry.get<Spec>('RNExitApp');
+export default TurboModuleRegistry.getEnforcing<Spec>('RNExitApp');

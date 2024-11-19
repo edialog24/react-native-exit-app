@@ -1,4 +1,4 @@
-import NativeRNExitApp from "./js/NativeRNExitApp";
+import NativeRNExitApp from "./NativeRNExitApp";
 
 var RNExitApp = {
   exitApp: function() {
